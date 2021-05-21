@@ -43,10 +43,10 @@ export var soundArray = []; //list of sounds loaded
 
 //Here is where all the Sound File Players Start
 
-export var wallSound = new soundFile("tap-resonant.mp3"); //load sound
+export var wallSound = new soundFile("pong 2.mp3"); //load sound
 soundArray.push(wallSound); //add sound to list of sounds
 
-export var paddleSound = new soundFile("pong-sound.mp3");
+export var paddleSound = new soundFile("pong.mp3");
 soundArray.push(paddleSound);
 
 export var scoreSound = new soundFile("phaserDown2.mp3");
