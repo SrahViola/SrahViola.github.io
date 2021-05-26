@@ -60,6 +60,6 @@ ambientSound.player.volume.value = -20; //turn down volume
 export var adventureMusic = new soundFile("PongMusicExtended.mp3");
 soundArray.push(adventureMusic);
 adventureMusic.player.loop = true; //turn on looping
-adventureMusic.player.volume.value = -10;
+adventureMusic.player.volume.value = 10; //turn up volume
 
 
