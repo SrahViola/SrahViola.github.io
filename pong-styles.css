@@ -8,7 +8,10 @@ body {
   padding: 0;
   margin: 0;
   background-image: url(superMario.jpeg);
-}
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  min-height: 100%;
 
 #game {
   margin: 10px;
