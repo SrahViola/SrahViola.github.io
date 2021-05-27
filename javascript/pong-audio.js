@@ -55,7 +55,7 @@ soundArray.push(scoreSound);
 export var ambientSound = new soundFile("WhiteNoise.mp3");
 soundArray.push(ambientSound);
 ambientSound.player.loop = true; //turn on looping
-ambientSound.player.volume.value = -20; //turn down volume
+ambientSound.player.volume.value = -10; 
 
 export var adventureMusic = new soundFile("PongMusicExtended.mp3");
 soundArray.push(adventureMusic);
