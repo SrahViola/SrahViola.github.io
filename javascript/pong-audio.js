@@ -52,7 +52,7 @@ soundArray.push(paddleSound);
 export var scoreSound = new soundFile("wall.mp3");
 soundArray.push(scoreSound);
 
-export var ambientSound = new soundFile("WhiteNoise.mp3");
+export var ambientSound = new soundFile("white-noise.mp3");
 soundArray.push(ambientSound);
 ambientSound.player.loop = true; //turn on looping
 ambientSound.player.volume.value = -20; //turn down volume
@@ -60,6 +60,9 @@ ambientSound.player.volume.value = -20; //turn down volume
 export var adventureMusic = new soundFile("PongMusicExtended.mp3");
 soundArray.push(adventureMusic);
 adventureMusic.player.loop = true; //turn on looping
-adventureMusic.player.volume.value = 20; //turn up volume
+adventureMusic.player.volume.value = 5;
 
-
+export var villageMusic = new soundFile("PongMusicExtended.mp3");
+soundArray.push(villageMusic);
+villageMusic.player.loop = true; //turn on looping
+villageMusic.player.volume.value = 5;
